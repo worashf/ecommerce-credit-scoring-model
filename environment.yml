@@ -1,0 +1,22 @@
+name: credit-scoring-model
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - notebook
+  - xgboost
+  - lightgbm
+  - ipywidgets
+  - pip
+  - pip:
+      - shap
+      - category_encoders
+      - imbalanced-learn
+      - mlflow
