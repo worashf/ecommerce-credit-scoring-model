@@ -1,0 +1,16 @@
+# requirements.txt for credit-scoring-model
+python==3.10
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+notebook
+xgboost
+lightgbm
+ipywidgets
+shap
+category_encoders
+imbalanced-learn
+mlflow
